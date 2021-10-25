@@ -3,10 +3,10 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
-            <title>Portfiolio</title>    
+    <title>Portfiolio</title>
 
     <!--Link Stylesheet-->
-<link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
 
 </head>
 
@@ -15,35 +15,114 @@
 <body>
     <main>
         <section>
-                <header>
-                    <nav>
-                        <ul>
-                            <li><a href="#Web-Dev">Web Development</a></li>
-                            <li><a href="#photos">Photography</a></li>
-                            <li><a href="#drawings">Drawings</a></li>
-                        </ul>
-                        <h1>CCFFDEAD</h2>
-                    </nav>
+            <header>
+                <h1>
+                    <!--Clicable Header Return-->
+                    <a href=".">CCFFDEAD</a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About CCFFDEAD</a></li>
+                        <li><a href="#Web-Dev">Web Development</a></li>
+                        <li><a href="#photos">Photography</a></li>
+                        <li><a href="#drawings">Drawings</a></li>
+                    </ul>
+                    <section class="hero">
+                        <div class="hero-cta">
+                            <img src="assets/images/icon.png" alt="Icon Profile Picture"></img>
+                            <h2>Hello and Welcome.</h2>
+                            <p>
+                                Welcome to the website of ccffdead, otherwise known as Maxwell Bryn.
+                            </p>
+
+                        </div>
+                        <div class="hero-form">
+                            <h3>Contact Form</h3>
+                            <p>Recieve a reply in less than 48 hours.</p>
+                            <!--Form Element-->
+                            <form>
+                                <!--Text Input-->
+                                <label for="name">Enter Full Name:</label>
+                                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                                <label for="name">Enter Email Adress:</label>
+                                <input type="email" placeholder="Your Email Address" name="email" id="email"
+                                    class="form-input" />
+                                <label for="name">Enter A Telephone Number:</label>
+                                <input type="tel" placeholder="Phone Number" name="phone" id="phone"
+                                    class="form-input" />
+                                <!--Questionaire-->
+                                <p>
+                                    Which method of contact do you prefer?
+                                    <span class="radio-wrapper">
+                                        <input type="radio" name="email-confirm" id="email" />
+                                        <label for="email-confirm">Email</label>
+                                    </span>
+                                    <span class="radio-wrapper">
+                                        <input type="radio" name="telephone-confirm" id="telephone" />
+                                        <label for="telephone-confirm">Telephone</label>
+                                    </span>
+                                </p>
+                                <!--Submit-->
+                                <button type="submit">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </section>
+                </nav>
+
+            </header>
+            <section id="about" class="intro">
+                <div class="flex-row">
+                    <h2 class="section-title primary-border">About CCFFDEAD</h2>
+                </div>
+                <div class="flex-row">
+                    <p>
+                        butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+                    </p>
+                </div> 
+            </section>
+        </section id="web-dev" class="intro">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">Web Development</h2>
+            <div class="card">
+                <div class="flex-row">
+                    <header>
+                        <h3>Run Buddy</h3>
+                        <h4>Responsive Website</h4>
+                    </header>
+                    <img src="../Portfolio/assets/images/runbuddy.JPG" alt="run buddy" />
+                </div>
+                <div class="flex-row">
                     
-                </header>
-        </section id="web-dev">
+                    <img src="../Portfolio/assets/images/runbuddy.JPG" alt="run buddy" />
+                    <header>
+                        <h3>Website Two</h3>
+                        <h4>This one's great!</h4>
+                    </header>
+                </div>
+                <div class="flex-row">
+                    <header>
+                        <h3>Run Buddy</h3>
+                        <h4>Responsive Website</h2>
+                    </header>
+                    <img src="../Portfolio/assets/images/runbuddy.JPG" alt="run buddy" />
+                </div>
+            </div>
+            </section>
+
+            <section>
+
+            </section>
 
 
-        <section>
+            <section id="photos">
 
-        </section>
-
-
-        <section id="photos">
-
-        </section>
+            </section>
 
 
-        <section id="drawings">
+            <section id="drawings">
 
-        </section>
+            </section>
     </main>
 </body>
-
-
-
