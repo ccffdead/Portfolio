@@ -18,4 +18,7 @@
 
 ![image](./assets/images/screen.png)
 [Portfolio](https://ccffdead.github.io/Portfolio/)
+<<<<<<< HEAD
 [Portfolio](https://ccffdead.github.io/Portfolio/)
+=======
+>>>>>>> 7ed5d9b6201762a9ccfd55923827d78da221f370
